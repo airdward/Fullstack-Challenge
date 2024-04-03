@@ -1,3 +1,7 @@
+```
+
+```
+
 # Reddy Onboarding - Interview task
 
 ## Why are you here
@@ -82,7 +86,7 @@ can install all the dependencies by running `poetry install`. We also provided
 you with a `manage.py` file, so you can run the server by running
 `python manage.py runserver`.
 
-For the purpose of this exercise do not worry about authentication, just assume
+For the purpose of this exercise do not worry about authenticatiocden, just assume
 that the user is logged in, and you have access to the user object, feel free
 to hardcode that in the views.
 

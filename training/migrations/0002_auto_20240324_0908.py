@@ -38,6 +38,8 @@ def populate_data(apps, schema_editor):
     User.objects.create_user(username="user1", password="password1")
     User.objects.create_user(username="user2", password="password2")
     User.objects.create_user(username="user3", password="password3")
+    User.objects.create_user(username="user4", password="password4")
+    User.objects.create_user(username="user5", password="password5")
 
     # Create UserActivities
     users = User.objects.all()

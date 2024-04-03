@@ -1,11 +1,11 @@
 import random
-
 from django.db import models
 from django.contrib.auth.models import User
 
 
 def do_training():
-    return random.randint(0, 100)
+    score = random.randint(0, 100)
+    return score
 
 
 class Activity(models.Model):

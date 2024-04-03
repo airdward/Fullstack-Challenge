@@ -2,13 +2,15 @@
 name = "onboarding-test"
 version = "0.1.0"
 description = ""
-authors = ["Aida Paul <aida@reddy.io>"]
+authors = ["Aida Paul <aida@reddy.io>", "Michael Edward"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 django = "^5.0.3"
 black = "^24.3.0"
+django-cors-headers = "^4.3.1"
+django-rest-framework = "^0.1.0"
 
 
 [build-system]
