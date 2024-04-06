@@ -67,7 +67,7 @@ class ProgressView(APIView):
         user_id = 1
 
         user_activity_logs = UserActivityLog.objects.filter(user_activity__user_id=user_id
-        ).prefetch_related(Prefetch("user_activity__activity", to_attr="prefetched_activity")
+        ).prefetch_related(Prefetch("user_activity__activity__name", to_attr="prefetched_activity")
         ).values(
             "score",
             "started_at",
